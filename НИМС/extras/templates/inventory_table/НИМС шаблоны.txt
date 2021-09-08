@@ -1,0 +1,26 @@
+Общий шаблон
+{{#briefings}}
+{{charName}}
+{{inventory}}
+{{profileInfo-Снаряжение}}
+{{/briefings}}
+
+вконтакт инвентарь
+{|
+|-
+{{#briefings}}
+|{{charName}}
+|{{inventory}}
+|-
+{{/briefings}}
+|}
+
+вконтакт инвентарь + индивидуальный инвентарь
+{|
+|-
+{{#briefings}}
+|{{charName}}
+|{{profileInfo-Снаряжение}}; {{inventory}}
+|-
+{{/briefings}}
+|}
